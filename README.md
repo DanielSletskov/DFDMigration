@@ -28,8 +28,8 @@ To handle roolback I chosen to used transactions and savepoints when I merge the
 ## Entity Framework Core Migrations</br>
 First I tried to get it up an running on visualstudio code but I ended up switching to Jerbrains Rider for all related to the use of the Entity FrameWork. </br>
 I then install nuget package relating to the entity framewor</br>
-*** Note: *** </br>
-<ins> ## Entity framework setup </ins>
+***Note:*** </br>
+<ins>Entity framework setup </ins>
 During the set up proces for the entity frame work I experienced mulitple load failiures when trying to change of switch branch. </br> 
 While I was installing and setting up other elements for the framework I tried to plan what to do and how to best utilise the software. </br>
 I again 
@@ -42,5 +42,5 @@ I again
 <ins> Rollback Plan: </ins> </br>
 In the event I have to rollback I plane on documenting the differing sated of the schemas and using the enitity featue rollback. </br>
 
-<ins> ## CONCLUSION </ins> </br>
+<ins> ##CONCLUSION </ins> </br>
 Keep calm and dont rush it. 
