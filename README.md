@@ -20,9 +20,9 @@ __2.Add Product Categories__ </br>
 **NOTE: I realized I made an error in the setup of the primary IDs so I went back and set to automaticly increase when new products or categories here added.It's possibly reflected in GIT** </br>
 ***insert_Test.sql*** </br>
 __3.Implement Product Ratings__</br>
-1- Like with product categories I create a new table gave it two variables ratingID(int) and ratingVal(decimal(10,2)) using the script ***add-ratings.sql***</br>
+-Like with product categories I create a new table gave it two variables ratingID(int) and ratingVal(decimal(10,2)) using the script ***add-ratings.sql***</br>
 __4.Merge and Conflict Resolution__</br>
-When merging I didnt experience any major conflicts the ones 
+-When merging I didnt experience any major conflicts the ones 
 __5. Rollback plan__</br>
 To handle roolback I chosen to use transactions and savepoints when I merge the different schemas and add the new foreign keys. </br>
 
@@ -30,8 +30,4 @@ To handle roolback I chosen to use transactions and savepoints when I merge the 
 ## Entity Framework Core Migrations</br>
 
 First I tried to get it up an running on visualstudio code but I ended up switching to Jerbrains Rider for all related to the use of the Entity FrameWork. </br>
-I first install nuget package relating to the entity framework 
-
-
- 
-
+I first install nuget package relating to the entity framework </br>
