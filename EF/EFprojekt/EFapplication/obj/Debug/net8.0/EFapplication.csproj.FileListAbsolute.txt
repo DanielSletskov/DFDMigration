@@ -1,0 +1,5 @@
+C:\PersonProgrammer\VSCode\DFDMigration\DFDMigration\EF\EFprojekt\EFapplication\obj\Debug\net8.0\EFapplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\PersonProgrammer\VSCode\DFDMigration\DFDMigration\EF\EFprojekt\EFapplication\obj\Debug\net8.0\EFapplication.AssemblyInfoInputs.cache
+C:\PersonProgrammer\VSCode\DFDMigration\DFDMigration\EF\EFprojekt\EFapplication\obj\Debug\net8.0\EFapplication.AssemblyInfo.cs
+C:\PersonProgrammer\VSCode\DFDMigration\DFDMigration\EF\EFprojekt\EFapplication\obj\Debug\net8.0\EFapplication.csproj.CoreCompileInputs.cache
+C:\PersonProgrammer\VSCode\DFDMigration\DFDMigration\EF\EFprojekt\EFapplication\obj\Debug\net8.0\EFapplication.sourcelink.json
