@@ -32,15 +32,13 @@ I then install nuget package relating to the entity framewor</br>
 <ins>Entity framework setup </ins>
 During the set up proces for the entity frame work I experienced mulitple load failiures when trying to change of switch branch. </br> 
 While I was installing and setting up other elements for the framework I tried to plan what to do and how to best utilise the software. </br>
-I again 
-<ins> Migrate to categories: </ins> </br>
-
-<ins> Migrate to product ratings: </ins> </br>
-
+I again had problems with git hub and I mishandeled fileplacement at bit. </br>
+<ins> Migrate to categories &  Migrate to product ratings: </ins> </br>
+I have squashed there two together bacause the answer to both i the same I couldnt get to it bacause I never got entity framework up and running. </br>
 <ins> Merge and conflict resolution: </ins> </br>
-
+When it came to merge into the main brach I coulnt see any probl which could 
 <ins> Rollback Plan: </ins> </br>
-In the event I have to rollback I plane on documenting the differing sated of the schemas and using the enitity featue rollback. </br>
+In the event I hade come to the scenario that I would have to rollback my plan was to documenting the differing sates of the schemas and using the enitity framework build in features to rollback. </br>
 
 <ins> ##CONCLUSION </ins> </br>
 Keep calm and dont rush it. 
