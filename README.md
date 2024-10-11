@@ -1,4 +1,4 @@
-# Database_Schema_Migration </br>
+## Database_Schema_Migration </br>
 Solution for compulsory assignment: Database Schema Migration </br>
 ## Project/git set up </br>
 __1-__ Create folder for solution the folders name is not relevant here </br>
@@ -16,16 +16,27 @@ The initial DB schema is contained in the file ***InitialDBsetup.sql*** </br>
 1- I create the new table and named it tProductCategories. </br>
 2- I Gave the table 3 variables categoryID INT. categoryName varchar(50). categoryDesc(100) </br>
 3-  </br>
-**NOTE: I realized I made an error in the setup of the primary IDs so I went back and set to automaticly increase when new products or categories here added.It's possibly reflected in GIT** </br>
+**NOTE: I realized I made an error in the setup of the primary IDs so I went back and set to automaticly increase when new products or categories here added. It's possibly reflected in GIT** </br>
 ***insert_Test.sql*** </br>
-<ins>.Implement Product Ratings</ins></br>
+<ins>Implement Product Ratings</ins></br>
 -Like with product categories I create a new table gave it two variables ratingID(int) and ratingVal(decimal(10,2)) using the script ***add-ratings.sql***</br>
 <ins>Merge and Conflict Resolution</ins></br>
 -When merging I didnt experience any major conflicts the ones I did gat was mainly due to my own mismanagement of the different branches or the origin from where the branche should emerge.</br>
 <ins> Rollback plan</ins></br>
 When I created new table the rollback plan was to save the script for teh different tables and if the where to be redeployed I would simply delete the table and create them again. </br>
 To handle roolback I chosen to used transactions and savepoints when I merge the different schemas or runing queryies.</br>
+---------------------------------------------------------------------------------</br>
 ## Entity Framework Core Migrations</br>
-
 First I tried to get it up an running on visualstudio code but I ended up switching to Jerbrains Rider for all related to the use of the Entity FrameWork. </br>
-I first install nuget package relating to the entity framework </br>
+I first install nuget package relating to the entity framework </br></br
+*** Note: *** </br>
+Encounter numorous problem bot when using Visual studio code and jetbrains Rider </br>
+
+## Migrate to categories: </br>
+
+## Migrate to product ratings: </br>
+
+## Merge and conflict resolution: </br>
+
+## Rollback Plan: </br>
+
