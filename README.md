@@ -5,7 +5,7 @@ __1-__ Create folder for solution the folders name is not relevant here </br>
 __2-__ Create github repository </br>
 __3-__ Link folder and github(https://github.com/DanielSletskov/DFDMigration)</br>
 ## Manual Database Migration</br>
-__1.Initial Schema Setup__</br>
+<ins>Initial Schema Setup</ins> </br>
 1- Using a general database diagram of an ecommerce solution as a starting point I started by creating the database named eCommerceDB.</br>
 2- Afterwards I created a script Table and with the name tProducts. </br>
 3- In the script I set to table to start with 3 variables. </br>
