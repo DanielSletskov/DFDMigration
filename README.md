@@ -38,4 +38,4 @@ I then install nuget package relating to the entity framewor</br>
 <ins> ## Merge and conflict resolution: </ins> </br>
 
 <ins> ## Rollback Plan: </ins> </br>
-In the event I have to rollback  </br>
+In the event I have to rollback I plane on documenting the differing sated of the schemas and using the enitity featue rollback. </br>
