@@ -26,10 +26,15 @@ __3.Implement Product Ratings__</br>
 1- Like with product categories I create a new table gave it two variables ratingID(int) and ratingVal(decimal(10,2)) using the script ***add-ratings.sql***</br>
 __4.Merge and Conflict Resolution__</br>
 For the merge i started by setting up a new query for adding the two new friegn keys </br>
-These are fk_categoryID(INT) and fk_ratingID
+These are fk_categoryID(INT) and fk_ratingID </br>
 __5. Rollback plan__</br>
-To handle roolback I chosen to use transactions and savepoints when I merge the different schemas and add the new foreign keys.
+To handle roolback I chosen to use transactions and savepoints when I merge the different schemas and add the new foreign keys. </br>
 
 
-## Entity Framework Core Migrations
+## Entity Framework Core Migrations</br>
+
+First I tried to get it up an running on visualstudio code. </br>
+But ended up using Jerbrains Rider for all related to the use of the Entity FrameWork. </br>
+
+ 
 
