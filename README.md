@@ -5,7 +5,7 @@ __1-__ Create folder for solution the folders name is not relevant here </br>
 __2-__ Create github repository </br>
 __3-__ Link folder and github(https://github.com/DanielSletskov/DFDMigration)</br>
 ## Manual Database Migration</br>
-<ins>Initial Schema Setup</ins> </br>
+<ins>1. Initial Schema Setup</ins> </br>
 1- Using a general database diagram of an ecommerce solution as a starting point I started by creating the database named eCommerceDB.</br>
 2- Afterwards I created a script Table and with the name tProducts. </br>
 3- In the script I set to table to start with 3 variables. </br>
@@ -15,7 +15,6 @@ The initial DB schema is contained in the file ***InitialDBsetup.sql*** </br>
 <ins>2.Add Product Categories</ins> </br>
 1- I create the new table and named it tProductCategories. </br>
 2- I Gave the table 3 variables categoryID INT. categoryName varchar(50). categoryDesc(100) </br>
-3-  </br>
 **NOTE: I realized I made an error in the setup of the primary IDs so I went back and set to automaticly increase when new products or categories here added. It's possibly reflected in GIT** </br>
 ***insert_Test.sql*** </br>
 <ins>Implement Product Ratings</ins></br>
@@ -28,15 +27,15 @@ To handle roolback I chosen to used transactions and savepoints when I merge the
 ---------------------------------------------------------------------------------</br>
 ## Entity Framework Core Migrations</br>
 First I tried to get it up an running on visualstudio code but I ended up switching to Jerbrains Rider for all related to the use of the Entity FrameWork. </br>
-I first install nuget package relating to the entity framework </br></br
+I then install nuget package relating to the entity framewor</br>
 *** Note: *** </br>
-Encounter numorous problem bot when using Visual studio code and jetbrains Rider </br>
+<ins> ## Entity framwork setup </ins>
 
-## Migrate to categories: </br>
+<ins> ## Migrate to categories: </ins> </br>
 
-## Migrate to product ratings: </br>
+<ins> ## Migrate to product ratings: </ins> </br>
 
-## Merge and conflict resolution: </br>
+<ins> ## Merge and conflict resolution: </ins> </br>
 
-## Rollback Plan: </br>
-
+<ins> ## Rollback Plan: </ins> </br>
+In the event I have to rollback  </br>
